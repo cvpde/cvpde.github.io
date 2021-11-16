@@ -740,7 +740,7 @@ nav {
     display: none;
   }
 }
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 480px) {
   .logo-name {
     font-size: 4em;
     margin-bottom: 0.4em;
