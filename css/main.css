@@ -503,7 +503,7 @@ nav {
 }
 .presentation-title {
   padding-top: 10px;
-  font-size: 1.2em;
+  font-size: 1.3em;
   font-weight: 600;
   margin-bottom: 0.5em;
   color: rgb(25, 118, 210);
@@ -511,17 +511,19 @@ nav {
 .schedule-name-company {
 }
 .schedule-name {
-  padding: 5px 0px 5px 20px;
+  padding: 5px 0px 5px 0px;
   font-weight: 600;
+  font-size: 1.2em;
 }
 .schedule-company {
-  padding: 0px 0px 5px 20px;
-  font-size: 1em;
+  padding: 0px 0px 5px 0px;
+  font-size: 1.1em;
 }
 .schedule-description .description {
   border-top: 1px solid rgba(0, 127, 255, 0.1);
   padding-top: 10px;
   margin-top: 2px;
+  font-size: 1.2em;
 }
 /* =============================================================================
      SPONSORS  and  PARTNERS
@@ -742,7 +744,7 @@ nav {
 }
 @media only screen and (max-width: 480px) {
   .logo-name {
-    font-size: 4.1em;
+    font-size: 4em;
     margin-bottom: 0.2em;
   }
   /* .schedule-tbl .schedule-description {
@@ -987,6 +989,18 @@ nav {
     border: 1px solid rgb(233 238 243);
     border-radius: 4px;
     box-shadow: 0 2px 2px 0 rgba(165, 191, 230, 0.15);
+  }
+  .presentation-title {
+    font-size: 1.3em;
+  }
+  .schedule-name {
+    font-size: 1.2em;
+  }
+  .schedule-company {
+    font-size: 1.2em;
+  }
+  .schedule-description .description {
+    font-size: 1.2em;
   }
   /* .speech-time {
       color: #2b2b2b;
