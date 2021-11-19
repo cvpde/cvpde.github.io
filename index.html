@@ -15,6 +15,25 @@
   
 
   <link rel="stylesheet" type="text/css" href="/css/main.css">
+  <link rel="stylesheet" href="/css/katex.min.css">
+  <script defer src="/js/katex.min.js"></script>
+  <script defer src="/js/auto-render.min.js"></script>
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement(document.body, {
+          
+          
+          delimiters: [
+              {left: '$$', right: '$$', display: true},
+              {left: '$', right: '$', display: false},
+              {left: '\\(', right: '\\)', display: false},
+              {left: '\\[', right: '\\]', display: true}
+          ],
+          
+          throwOnError : false
+        });
+    });
+  </script>
 
 </head>
 <body>
@@ -89,7 +108,7 @@
     
 
     <h3 class="speech-title">
-      <span>------</span>
+      <span>Transition between nonlinear and linear eigenvalue problems</span>
     </h3>
 
     <div>
@@ -539,10 +558,10 @@
               
             
             <td class="schedule-description" id="hidden">
-                <div class="presentation-title">------</div>
+                <div class="presentation-title">Transition between nonlinear and linear eigenvalue problems</div>
                 <div class="schedule-name">刘兆理</div>
                 <div class="schedule-company">首都师范大学</div>
-                <div class="description">------</div>
+                <div class="description">We study convergence of variational solutions of the nonlinear eigenvalue problem $$ -\Delta u=\lambda|u|^{p-2}u, u\in H_0^1(\Omega), $$ as $p\downarrow2$ or as $p\uparrow2$, where $\Omega$ is a bounded domain in $\mathbb R^N$ with smooth boundary. It turns out that if $\lambda$ is not an eigenvalue of $-\Delta$ then the solutions either blow up or vanish according to $p\downarrow2$ or $p\uparrow2$, while if $\lambda$ is an eigenvalue of $-\Delta$ then the solutions converge to the associated eigenspace.</div>
 
             </td>
           </tr>
@@ -559,7 +578,7 @@
                 <div class="presentation-title">Non-degeneracy of Multi-bubbling Solutions for fractional prescribed curvature problem</div>
                 <div class="schedule-name">郭玉霞</div>
                 <div class="schedule-company">清华大学</div>
-                <div class="description">We consider a fractional prescribed scalar curvature problem. We first prove a non-degeneracy result for the positive bubbling solutions of the equation via the  local Pohozaev identities.  Then we apply the non-degeneracy result to construct new bubbling solutions by Lyapunv-Schmidt reduction arguments. It should be mentioned that due to the non-localness of the fractional operator, we can not establish the local Pohozaev identities for the solution directly. Instead, we consider its corresponding harmonic extension, and this difference not only makes the sharp estimates for several integrals in the local Pohozaev identities but also force us to use the Pohozaev identities in quite a different way.</div>
+                <div class="description">We consider the following fractional  prescribed scalar curvature problem $$ \left\{\begin{array}{ll} (-\Delta)^s u =K(y)u^{2^*_s-1}, \ \hbox{ in } \ \mathbb{R}^N, \\ u&gt;0, \quad u \in \dot{H}^s(\mathbb{R}^N), \end{array}\right. $$ where $N &gt; 2s&#43;2$, $\frac{1}{2} &lt; s &lt;1$, $2^*_s=\frac{2N}{N-2s}$ is the critical Sobolev exponent, $\dot{H}^s(\mathbb{R}^N)$ is the completion of $C_0^{\infty}(\mathbb{R}^N)$ under the  semi-norm $[u]_{H^s(\mathbb{R}^N)} :=(\int_{\mathbb{R}^N}|(-\Delta)^{\frac{s}{2}}u|^2dx)^{\frac{1}{2}}$, and $K(y)$ is a positive radial function. We first prove a non-degeneracy result for the positive bubbling solutions of the equation via the local Pohozaev identities.  Then we apply the non-degeneracy result to construct new bubbling solutions by Lyapunv-Schmidt reduction arguments. It should be mentioned that due to the non-localness of the fractional operator, we can not establish the local Pohozaev identities for the solution of $u$ directly. Instead, we consider its corresponding harmonic extension, and this difference not only makes the sharp estimates for several integrals in the local Pohozaev identities but also force us to use the Pohozaev identities in quite a different way.</div>
 
             </td>
           </tr>
