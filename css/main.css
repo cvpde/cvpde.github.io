@@ -853,6 +853,7 @@ nav {
     margin-bottom: 0.3em;
   }
   .presentation-name {
+    padding: 4px 2px;
     font-size: 1.4em;
   }
   .presentation-company {
