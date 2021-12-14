@@ -455,16 +455,16 @@ nav {
 }
 .presentation-time,
 .coffee-time {
-  padding: 0px 1px;
+  padding: 2px;
   margin-bottom: 10px;
   margin-left: -10px;
-  width: 150px;
+  width: 170px;
   text-align: center;
   color: #00539cff;
   background: #ffd662ff;
   /* color: #ffd662ff;
   background: #00539cff; */
-  font-size: 0.9em;
+  font-size: 1em;
   font-weight: 500;
 }
 .presentation-title,
@@ -840,8 +840,9 @@ nav {
   }
   .presentation-time,
   .coffee-time {
-    font-size: 1em;
-    width: 120px;
+    font-size: 1.1em;
+    font-weight: 500;
+    width: 130px;
     margin-bottom: 0px;
     margin-left: -10px;
   }
