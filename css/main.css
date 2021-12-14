@@ -386,7 +386,7 @@ nav {
 .about-table {
   position: relative;
   padding: 10px 10px;
-  font-size: 2em;
+  font-size: 2.1em;
   line-height: 1.5em;
   text-align: left;
 }
@@ -404,7 +404,7 @@ nav {
 }
 
 .about-description > p {
-  font-size: 2em;
+  font-size: 2.1em;
   line-height: 1.5em;
 }
 /* =============================================================================
@@ -447,7 +447,7 @@ nav {
 .schedule-coffee {
   padding: 30px;
   margin: 20px 0px;
-  font-size: 1.8em;
+  font-size: 1.9em;
   line-height: 1.3em;
   /* box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em,
     rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset; */
@@ -458,7 +458,7 @@ nav {
   padding: 2px;
   margin-bottom: 10px;
   margin-left: -10px;
-  width: 170px;
+  width: 180px;
   text-align: center;
   color: #00539cff;
   background: #ffd662ff;
@@ -494,7 +494,7 @@ nav {
 
 .host {
   padding: 10px 0px 30px 0px;
-  font-size: 1em;
+  font-size: 1.1em;
   color: rgba(3, 71, 116, 0.8);
 }
 
@@ -803,14 +803,14 @@ nav {
   }
   .about-description > p {
     line-height: 1.5em;
-    font-size: 1.6em;
+    font-size: 1.8em;
   }
   .about-table {
-    font-size: 1.6em;
+    font-size: 1.8em;
   }
   .coffee-session {
-    font-size: 1.1em;
-    line-height: 1.1em;
+    font-size: 1.3em;
+    line-height: 1.3em;
     padding: 5px 0px;
   }
   .coffee-session-title {
@@ -840,30 +840,30 @@ nav {
   }
   .presentation-time,
   .coffee-time {
-    font-size: 1.1em;
+    font-size: 1.3em;
     font-weight: 500;
-    width: 130px;
+    width: 160px;
     margin-bottom: 0px;
     margin-left: -10px;
   }
   .presentation-title,
   .coffee-name {
-    font-size: 1.3em;
-    line-height: 1.3em;
+    font-size: 1.5em;
+    line-height: 1.2em;
     margin-bottom: 0.3em;
   }
   .presentation-name {
-    font-size: 1.1em;
+    font-size: 1.4em;
   }
   .presentation-company {
-    font-size: 1.1em;
+    font-size: 1.4em;
   }
   .presentation-description {
-    font-size: 1.1em;
-    line-height: 1.3em;
+    font-size: 1.3em;
+    line-height: 1.2em;
   }
   .host {
-    font-size: 1.1em;
+    font-size: 1.3em;
   }
   /* .speech-time {
       color: #2b2b2b;
